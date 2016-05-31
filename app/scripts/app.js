@@ -1,3 +1,6 @@
+
+
+
 'use strict';
 
 /**
@@ -17,10 +20,20 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+      .when('/bot/wip', {
+        templateUrl: 'views/wip.html',
+        controller: 'WipCtrl',
+        controllerAs: 'wip'
+      })
+      .when('/bot/:name', {
+        templateUrl: 'views/bot.html',
+        controller: 'BotCtrl',
+        controllerAs: 'bot'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
@@ -28,6 +41,6 @@ angular
         controllerAs: 'about'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/about'
       });
   });
