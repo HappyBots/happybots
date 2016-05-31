@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name happybotsApp.controller:MainCtrl
+ * @name happybotsApp.controller:WipCtrl
  * @description
- * # MainCtrl
+ * # WipCtrl
  * Controller of the happybotsApp
  */
 angular.module('happybotsApp')
-  .controller('MainCtrl', function () {
+  .controller('WipCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
