@@ -8,8 +8,9 @@
  * Controller of the happybotsApp
  */
 angular.module('happybotsApp')
-  .controller('BotCtrl', ['$scope', '$routeParams', function ($scope, $routeParams) {
+  .controller('BotCtrl', ['$scope', '$routeParams', 'botsData', function ($scope, $routeParams, botsData) {
 
-    $scope.botName = $routeParams.name;
+    var botName = $routeParams.name;
+    $scope.bot = botsData;
 
   }]);
