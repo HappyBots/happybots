@@ -20,15 +20,10 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/bot/wip', {
+      .when('/wip', {
         templateUrl: 'views/wip.html',
         controller: 'WipCtrl',
         controllerAs: 'wip'
-      })
-      .when('/bot/:name', {
-        templateUrl: 'views/bot.html',
-        controller: 'BotCtrl',
-        controllerAs: 'bot'
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',
@@ -40,7 +35,12 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/:name', {
+        templateUrl: 'views/bot.html',
+        controller: 'BotCtrl',
+        controllerAs: 'bot'
+      })
       .otherwise({
-        redirectTo: '/about'
+        redirectTo: '/alex'
       });
   });
