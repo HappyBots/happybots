@@ -14,7 +14,8 @@ angular.module('happybotsApp')
       description: "A Wikipedia bot for messenger",
       imageSrc:"images/alex.png",
       imageBgSrc:"images/alexBg.jpg",
-      messengerUrl: "blabla",
-      githubUrl: "blabla"
+      icoSrc:"images/alexIco.jpg",
+      messengerUrl: "https://m.me/1753699528246555",
+      githubUrl: "https://github.com/patriciamayo/wikiMessenger"
     }
   });
