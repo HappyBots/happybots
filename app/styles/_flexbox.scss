@@ -1,0 +1,11 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}

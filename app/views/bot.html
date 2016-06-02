@@ -1,11 +1,13 @@
-<section class="bot" style="background: url({{ Bot.imageBgSrc }}) no-repeat center fixed; background-size: cover;">
+<section class="bot center" style="background: url({{ Bot.imageBgSrc }}) no-repeat center fixed; background-size: cover;">
   <div class="container">
     <div class="row">
-      <div class="col-sm-5 col-sm-offset-1">
-
+      <div class="col-sm-5 col-sm-offset-1 vcenter">
+        <img src="{{ Bot.imageSrc }}" class="img-responsive" alt="" />
       </div>
-      <div class="col-sm-5">
-
+      <div class="col-sm-5 center-col vcenter">
+        <h1>Hello, <strong>I'm {{ Bot.name }}</strong></h1>
+        <h2>{{ Bot.description }}</h2>
+        <a href="{{ messengerUrl }}" class="btn btn-lg btn-primary"><img src="images/messenger.png" class="img-bg"> Message Me</a> <a class="btn btn-lg btn-default" href="{{ githubUrl }}"><i class="fa fa-github fa" aria-hidden="true"></i> Fork on github</a>
       </div>
     </div>
   </div>
