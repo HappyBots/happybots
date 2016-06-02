@@ -13,6 +13,7 @@ angular.module('happybotsApp')
       name: "Alex",
       description: "A Wikipedia bot for messenger",
       imageSrc:"images/alex.png",
+      imageBgSrc:"images/alexBg.jpg",
       messengerUrl: "blabla"
     }
   });
