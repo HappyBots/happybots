@@ -1,5 +1,10 @@
 <footer>
-  <div class="container">
-    xxxx
+  <div class="container botbar">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <a ng-repeat="Bot in Bots" href="#/{{ Bot.id }}"><img src="{{ Bot.icoSrc }}" alt="" class="icon-messenger" /></a>
+        <a href="#/wip"><img src="images/wipIco.png" alt="" class="icon-messenger" /></a>
+      </div>
+    </div>
   </div>
 </footer>

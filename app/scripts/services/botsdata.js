@@ -11,10 +11,11 @@ angular.module('happybotsApp')
   .value('botsData', {
     "alex" : {
       name: "Alex",
+      id: "alex",
       description: "A Wikipedia bot for messenger",
       imageSrc:"images/alex.png",
       imageBgSrc:"images/alexBg.jpg",
-      icoSrc:"images/alexIco.jpg",
+      icoSrc:"images/alexIco.png",
       messengerUrl: "https://m.me/1753699528246555",
       githubUrl: "https://github.com/patriciamayo/wikiMessenger"
     }
