@@ -7,7 +7,7 @@
  * # botsData
  * Value in the happybotsApp.
  */
-angular.module('happybotsApp').
+angular.module('happybotsApp')
   .value('botsData', {
     "alex" : {
       name: "Alex",

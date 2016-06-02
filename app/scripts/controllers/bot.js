@@ -11,6 +11,6 @@ angular.module('happybotsApp')
   .controller('BotCtrl', ['$scope', '$routeParams', 'botsData', function ($scope, $routeParams, botsData) {
 
     var botName = $routeParams.name;
-    $scope.bot = botsData;
+    $scope.Bot = botsData[botName];
 
   }]);
