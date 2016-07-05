@@ -1,6 +1,3 @@
-
-
-
 'use strict';
 
 /**
@@ -24,11 +21,6 @@ angular
         templateUrl: 'views/wip.html',
         controller: 'WipCtrl',
         controllerAs: 'wip'
-      })
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl',
-        controllerAs: 'contact'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
