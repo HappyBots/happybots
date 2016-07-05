@@ -8,10 +8,9 @@
  * Controller of the happybotsApp
  */
 angular.module('happybotsApp')
-  .controller('WipCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('WipCtrl', ['$scope', function ($scope) {
+
+  	$scope.feature = "Image Face Recognition";
+  	$scope.newBotName = "Eeve";
+
+  }]);

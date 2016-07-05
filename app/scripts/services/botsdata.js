@@ -18,5 +18,5 @@ angular.module('happybotsApp')
       icoSrc:"images/alexIco.png",
       messengerUrl: "https://m.me/1753699528246555",
       githubUrl: "https://github.com/patriciamayo/wikiMessenger"
-    }
+    },
   });
