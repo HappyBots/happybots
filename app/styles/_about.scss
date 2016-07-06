@@ -2,55 +2,26 @@
 
 	margin-top: $navbar-height;
 	text-align: center;
-	marging: auto;
+	margin: auto;
 
 
-	.colored-block { 
-		width: 100%; 
+	.colored-block {
+		width: 100%;
 		padding: 30px 0px;
-		color:#fff; 
+		color:#fff;
 	}
 
-	.purple{ 
-		background:purple; 
-	}
-s
-	.green{ 
-		background:green; 
+	.purple{
+		background:purple;
 	}
 
-	.blue{ 
-		background:blue; 
+	.green{
+		background:green;
 	}
 
-	.center {
-	    margin: auto;
-	    width: 50%;
-	    padding: 10px;
+	.blue{
+		background:blue;
 	}
 
 
-	.social {
-		 ul {
-			overflow: auto;
-		}
-
-		 ul li {
-			list-style-type: none;
-			float: left;
-		}
-
-		ul li a i {
-			background: #205D7A;
-			color: #fff;
-			width: 40px;
-			height: 40px;
-			border-radius: 20px;
-			font-size: 25px;
-			text-align: center;
-			margin-right: 10px;
-			padding-top: 15%;
-		}
-	}
 }
-
