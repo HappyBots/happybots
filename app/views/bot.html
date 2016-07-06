@@ -5,7 +5,8 @@
         <img src="{{ Bot.imageSrc }}" class="img-responsive" alt="" />
       </div>
       <div class="col-sm-5 center-col vcenter">
-        <h1>Hello, <strong>I'm {{ Bot.name }}</strong></h1>
+        <h1>Hello, <strong><typer words="['I\'m ' +  Bot.name ]" type-time='50' start-typing="true" repeat="false" backspace-time='200' start-delay='1500'></typer></strong></h1>
+
         <h2>{{ Bot.description }}</h2>
         <a href="{{ messengerUrl }}" class="btn btn-lg btn-primary"><img src="images/messenger.png" class="img-bg"> Message Me</a> <a class="btn btn-lg btn-default" href="{{ githubUrl }}"><i class="fa fa-github fa" aria-hidden="true"></i> Fork on github</a>
       </div>
