@@ -1,6 +1,3 @@
-
-
-
 'use strict';
 
 /**
@@ -25,11 +22,6 @@ angular
         controller: 'WipCtrl',
         controllerAs: 'wip'
       })
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl',
-        controllerAs: 'contact'
-      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
@@ -43,4 +35,12 @@ angular
       .otherwise({
         redirectTo: '/alex'
       });
-  });
+  }).run(['$rootScope', '$location', '$window', function($rootScope, $location, $window){
+   $rootScope
+      .$on('$stateChangeSuccess',
+          function(event){
+              if (!$window.ga)
+                  return;
+              $window.ga('send', 'pageview', { page: $location.path() });
+      });
+}]);
