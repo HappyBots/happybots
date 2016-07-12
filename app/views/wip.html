@@ -8,14 +8,10 @@
         <h2>Oh my god!<br><strong> {{ newBotName }}</strong> is hatching from the egg!</h2>
         <h3>{{ newBotName }} will grow up to be the best {{ feature }} bot</h3>
 
-        <br>
-        <br>
+        <div class="text-block">
+          <p class="text">We build bots with <i class="fa fa-heart love" aria-hidden="true"></i><br><a class="cursor-link" onclick="showDoorbellModal()">Contact us</a> if you need a bot for your company :)</p>
+        </div>
 
-        <!-- Begin MailChimp Signup Form -->
-        <p>We build bots with love, contact us if you need a bot for your company :)</p>
-
-
-        <p>Can't wait for {{newBotName}} to be a full grown up bot? Susbcribe to happybots and we will let you know asap!</p>
 
         <ng-include src="'views/shared/newsletter.html'"></ng-include>
         <ng-include src="'views/shared/socialbuttons.html'"></ng-include>
