@@ -11,6 +11,7 @@ module.exports = function (grunt) {
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   // Automatically load required Grunt tasks
   require('jit-grunt')(grunt, {
@@ -224,7 +225,7 @@ module.exports = function (grunt) {
         src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         ignorePath: /(\.\.\/){1,2}bower_components\//
       }
-    }, 
+    },
 
     // Compiles Sass to CSS and generates necessary files if requested
     compass: {
@@ -513,4 +514,14 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+  grunt.initConfig({
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    }
+  });
+
 };
