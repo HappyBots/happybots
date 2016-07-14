@@ -1,3 +1,4 @@
+
 .bot {
 
     h1, h2 {
@@ -18,5 +19,18 @@
       width: 20px;
     }
 
+    min-height: 100vh;
+
+}
+
+
+@media (max-width: $screen-sm-min) {
+
+  .bot {
+      h1 {
+        text-transform: uppercase;
+        font-size: 3rem;
+      }
+  }
 
 }
