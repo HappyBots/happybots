@@ -1,3 +1,29 @@
 .cursor-link {
   cursor:pointer;
 }
+
+.logo {
+	height: 40px;
+	margin-right: 5px;
+	margin-top: 5px;
+  float: left;
+  padding-left: 10px;
+}
+
+
+
+.text-block {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				text-align: justify;
+				font-size: 2rem;
+}
+
+.love {
+	color: $red !important;
+}
+
+
+.btn {
+  margin-bottom: 5px;
+}
