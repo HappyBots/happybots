@@ -16,7 +16,7 @@ angular.module('happybotsApp')
       imageSrc:"images/alex.png",
       imageBgSrc:"images/alexBg5.jpg",
       icoSrc:"images/alexIcoNoBorder.png",
-      messengerUrl: "https://m.me/1753699528246555",
-      githubUrl: "https://github.com/patriciamayo/wikiMessenger"
+      messengerUrl: "http://m.me/alex.wikimessenger",
+      githubUrl: "https://github.com/patriciamayo/Alex-wikiMessenger"
     },
   });
