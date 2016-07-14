@@ -4,11 +4,9 @@
 }
 
 .parent-center  {
-  .social-center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-  }
+    .social { text-align: center; }
+    .social ul { display:inline-table; }
+    .social li { display:inline; }
 }
 
 
@@ -17,9 +15,9 @@
 @media (max-width: $screen-sm-min) {
 
   .social-center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    .social { text-align: center; }
+    .social ul { display:inline-table; }
+    .social li { display:inline; }
     margin-bottom: 100px;
   }
 
