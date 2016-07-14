@@ -1,14 +1,10 @@
 .wip {
 
-		h2 {
-	      margin-bottom: 30px;
-				text-transform: uppercase;
-				font-size: 4rem;
-	    }
+			h2 {
+		      margin-bottom: 30px;
+					font-size: 3rem;
+		    }
 
-			h3 {
-				font-size: 3rem;
-			}
 
 			.text-block {
 				margin-top: 30px;
@@ -64,5 +60,17 @@
 			100% { left: 0px; }
 		}
 
+
+}
+
+
+@media (max-width: $screen-sm-min) {
+
+  .wip {
+      h2 {
+        font-size: 2rem;
+      }
+
+  }
 
 }
