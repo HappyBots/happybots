@@ -36,7 +36,7 @@ $body-bg:               #fff !default;
 $text-color:            $gray-dark !default;
 
 //** Global textual link color.
-$link-color:            $brand-primary !default;
+$link-color:            $accent !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
@@ -377,7 +377,7 @@ $navbar-collapse-max-height:       340px !default;
 $navbar-default-color:             $accent-secondary !default;
 //$navbar-default-bg:                #f8f8f8 !default;
 $navbar-default-bg:                $accent-secondary !default;
-$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-border:            $accent-secondary !default;
 
 // Navbar links
 $navbar-default-link-color:                #ffffff !default;
