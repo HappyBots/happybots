@@ -1,0 +1,22 @@
+<!doctype html> <html> <head> <meta charset="utf-8"> <title>HAPPYBOTS</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/main.3eb2ea9b.css"> <script src="https://use.fontawesome.com/b8df798ef0.js"></script> <meta property="og:title" content="HAPPYBOTS"> <meta property="og:type" content="website"> <meta property="og:url" content="http://happybots.io"> <meta property="og:image" content="http://happybots.io/images/hbIcoXXL.png"> </head> <body ng-app="happybotsApp"> <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <!-- Add your site or application content here --> <div class="header"> <ng-include src="'views/shared/navbar.html'"></ng-include> </div> <div ng-view=""></div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-80374030-1', 'auto');</script> <script type="text/javascript">window.doorbellOptions = {
+        appKey: 'YqIzK3YXyT4WO8ADjR0mkeaWqSbS53zez5BPAk9uKnbGRE95oPdp8PYA7EHZCDnY',
+        hideButton: true,
+    };
+    (function(w, d, t) {
+        var hasLoaded = false;
+        function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/3973?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+        if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+        if (d.readyState == 'complete') { l(); }
+    }(window, document, 'script'));
+
+    function showDoorbellModal() {
+        doorbell.show();
+        return false;
+    }</script> <script src="scripts/vendor.041137e4.js"></script> <script src="scripts/scripts.125fef93.js"></script> </body> </html>
