@@ -1,0 +1,76 @@
+.about {
+
+	margin-top: $navbar-height;
+	text-align: center;
+
+	 h1, h2, h3, h4, p {
+      color: #333;
+    }
+
+		h2 {
+			margin-bottom: 35px;
+		}
+
+		h4 {
+			font-weight: 300;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-size: 2rem;
+		}
+
+    img {
+    	display: block;
+    	margin: 0 auto;
+    }
+
+    .center {
+    	display: block;
+    	margin: 0 auto;
+    }
+
+
+	.colored-block {
+		width: 100%;
+		padding-top: 100px;
+		padding-bottom: 90px;
+		padding-left: 0;
+		padding-right: 0;
+		color:#fff;
+	}
+
+	.white{
+		background: white;
+	}
+
+	.grey{
+		background: $gray-lighter;
+	}
+
+	.blue{
+		background:blue;
+	}
+
+	.block {
+		margin-top: $navbar-height;
+		margin-bottom: $navbar-height;
+	}
+
+	.text-block {
+		text-align: center;
+	}
+
+	.love {
+		color: $red !important;
+	}
+
+
+	.about-logo {
+		height:150px;
+		width: 150px;
+	}
+
+	.team-section {
+		padding-bottom: 130px;
+	}
+
+}

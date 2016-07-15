@@ -1,0 +1,76 @@
+.wip {
+
+			h2 {
+		      margin-bottom: 30px;
+					font-size: 3rem;
+		    }
+
+
+			.text-block {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				text-align: justify;
+				font-size: 2rem;
+			}
+
+			.love {
+				color: $red !important;
+			}
+
+		.moving-animation {
+			position: relative;
+			left:0px;
+			-webkit-animation: shake 2s linear infinite;
+			-moz-animation:    shake 2s linear infinite;  /* Fx 5+ */
+			-o-animation:      shake 2s linear infinite;  /* Opera 12+ */
+			animation:         shake 2s linear infinite;  /* IE 10+ */
+		}
+
+		@-webkit-keyframes shake {
+			0% { left: -10px; }
+			5% { left: 10px; }
+			10% { left: -10px; }
+			15% { left: 10px; }
+			17% { left: 0px; }
+			100% { left: 0px; }
+		}
+
+		@-moz-keyframes shake {
+			0% { left: -10px; }
+			5% { left: 10px; }
+			10% { left: -10px; }
+			15% { left: 10px; }
+			17% { left: 0px; }
+			100% { left: 0px; }
+		}
+		@-o-keyframes shake {
+			0% { left: -10px; }
+			5% { left: 10px; }
+			10% { left: -10px; }
+			15% { left: 10px; }
+			17% { left: 0px; }
+			100% { left: 0px; }
+		}
+		@keyframes shake {
+			0% { left: -10px; }
+			5% { left: 10px; }
+			10% { left: -10px; }
+			15% { left: 10px; }
+			17% { left: 0px; }
+			100% { left: 0px; }
+		}
+
+
+}
+
+
+@media (max-width: $screen-sm-min) {
+
+  .wip {
+      h2 {
+        font-size: 2rem;
+      }
+
+  }
+
+}

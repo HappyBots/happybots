@@ -1,0 +1,26 @@
+@media (min-width: $screen-sm-min) {
+
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .vcenter {
+      display: inline-block;
+      vertical-align: middle;
+      float: none;
+  }
+
+}
+
+@media (max-width: $screen-sm-min) {
+
+  .center, .text-block {
+    text-align: center !important;
+  }
+
+
+
+}
