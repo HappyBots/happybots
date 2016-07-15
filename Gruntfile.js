@@ -414,7 +414,8 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '*.html',
             'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*'
+            'styles/fonts/{,*/}*.*',
+            'CNAME',
           ]
         }, {
           expand: true,
@@ -457,7 +458,15 @@ module.exports = function (grunt) {
         configFile: 'test/karma.conf.js',
         singleRun: true
       }
-    }
+    },
+
+    ghpages: {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    },
+
   });
 
 
@@ -515,6 +524,11 @@ module.exports = function (grunt) {
     'build'
   ]);
 
+  grunt.registerTask('deploy', [
+    'ghpages',
+  ]);
+
+/*
   grunt.initConfig({
     'gh-pages': {
       options: {
@@ -523,5 +537,5 @@ module.exports = function (grunt) {
       src: ['**']
     }
   });
-
+*/
 };
