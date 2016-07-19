@@ -15,11 +15,9 @@
 @media (max-width: $screen-sm-min) {
 
   .social-center {
-    .social { text-align: center; }
-    .social ul { display:inline-table; }
-    .social li { display:inline; }
-    margin-bottom: 100px;
+    display: none;
   }
+
 
 }
 
