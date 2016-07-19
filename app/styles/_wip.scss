@@ -67,9 +67,20 @@
 @media (max-width: $screen-sm-min) {
 
   .wip {
+
       h2 {
         font-size: 2rem;
       }
+
+			.img-responsive {
+				padding-top: 20px;
+				padding-left: 50px;
+				padding-right: 50px;
+			}
+
+			.text {
+				font-size: 1.4rem;
+			}
 
   }
 
