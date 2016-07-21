@@ -19,4 +19,14 @@ angular.module('happybotsApp')
       messengerUrl: "http://m.me/alex.wikimessenger",
       githubUrl: "https://github.com/patriciamayo/Alex-wikiMessenger"
     },
+    "sam" : {
+      name: "Sam",
+      id: "sam",
+      description: "A Pokemon bot for messenger to help you win in Pokemon Go",
+      imageSrc:"images/sam.png",
+      imageBgSrc:"images/alexBg5.jpg",
+      icoSrc:"images/samico.png",
+      messengerUrl: "http://m.me/sam.pokemessenger",
+      githubUrl: "http://sandoche.com"
+    },
   });
