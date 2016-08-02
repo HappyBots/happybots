@@ -23,7 +23,7 @@ angular.module('happybotsApp')
     "sam" : {
       name: "Sam",
       id: "sam",
-      description: "A Pokemon bot for messenger to help you win in Pokemon Go",
+      description: "A Pokémon bot for messenger to help you win in Pokémon Go",
       imageSrc:"images/sam.png",
       imageBgSrc:"images/samBg.jpg",
       icoSrc:"images/samico.png",
