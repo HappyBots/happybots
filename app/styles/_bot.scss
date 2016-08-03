@@ -21,6 +21,12 @@
 
     min-height: 100vh;
 
+
+  .white-shadow {
+    color: #fff !important;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+  }
+
 }
 
 
@@ -28,7 +34,7 @@
 
   .bot {
 
-      padding-top: 35px;
+      padding-top: 65px;
 
       .btn {
         padding: 6px 12px;
