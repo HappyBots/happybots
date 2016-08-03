@@ -460,12 +460,12 @@ module.exports = function (grunt) {
       }
     },
 
-    ghpages: {
+    'gh-pages': {
       options: {
         base: 'dist'
       },
       src: ['**']
-    },
+    }
 
   });
 
@@ -525,7 +525,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('deploy', [
-    'ghpages',
+    'gh-pages',
   ]);
 
 /*
