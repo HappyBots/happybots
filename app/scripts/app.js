@@ -34,7 +34,7 @@ angular
         controllerAs: 'bot'
       })
       .otherwise({
-        redirectTo: '/alex'
+        redirectTo: '/sam'
       });
   }).run(function($rootScope, $location, analyticsService) {
     $rootScope.$on('$routeChangeSuccess', function() {
